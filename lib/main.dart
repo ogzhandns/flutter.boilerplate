@@ -1,20 +1,19 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MainApp());
-}
-
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
+  runApp(
+    const MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: Text('Hello World!'),
+          child: Column(
+            children: [
+              Text('Flutter Boiler Plate Template'),
+              Text('Look at the lib folder for the template files'),
+            ],
+          ),
         ),
       ),
-    );
-  }
+    ),
+  );
 }
