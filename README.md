@@ -1,1 +1,3 @@
-# flutter.boilerplate
+# flutterboilerplate
+
+Flutter Boiler Plate
